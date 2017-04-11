@@ -1,34 +1,39 @@
+<!--
+set widths max and min, percentages?
+center auto
+font awesome
+another google font
+link images, background files-->
+
 <!DOCTYPE html>
 <html>
+<script src="https://use.fontawesome.com/5813024269.js"></script>
   <head>
     <title>Resume: Victoria</title>
     <meta charset="utf-8"/>
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Lora:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Lora:400,700' rel='stylesheet' type='text/css' >
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet">
-    <style>
-
-
-    </style>
   </head>
   <body>
-    <div class="topbanner">
-      <h1>VICTORIA</h1>
-      <!--
-      <h1>Make <span class="title-this">This</span> Page</h1>
-     <p class="subtitle">The Complete Guide To Making This Web Page</p>
-      <h2>TRZCIANOWSKI</h2>
-      -->
-        <!--Victoria over TRZCIANOWSKI but spread across equal width-->
-<!--background image as banner -->
-    </div>
+<!--topbanner section-->
+  <section class="topbanner containerwidth">
+      <h1 class="font-white-large font-center">VICTORIA TRZCIANOWSKI</h1>
+      <section class="fontawesome containerwidth flex">
+            <span class="fa fa-github fa-3x" aria-hidden="true"></span>
+            <span class="fa fa-instagram fa-3x" aria-hidden="true"></span>
+            <span class="fa fa-linkedin fa-3x" aria-hidden="true"></span>
 
+      </section>
+  </section>
 <!--biosection next -->
-      <section class="bio">
-        <div>
-  <!--portrait div -->
-            <img src="" alt="portrait"/>
+      <section class="flex">
+
+        <div class="leftbox">
+            <img src="imagefolder/portraitimg.jpg" alt="portrait"/>
         </div>
-        <div>
+        <div class="rightbox">
           <ul>
             <li><h3>Name</h3>  Victoria Trzcianowski</li>
             <li><h3>Birthday</h3>  October 8 1990</li>
@@ -37,47 +42,46 @@
             <li><h3>Address</h3> 35 Hayden St, Toronto</li>
           </ul>
 
-          <p>writing here for a short blurb about myself.</p>
+            <div class="bioblurb">
+              writing here for a short blurb about myself.
+            </div>
 
         </div>
-      <section class="skills">
-        write about my skills. Keywords
-        <!--maybe full width bar with skills heading, and again for strengths-->
       </section>
-
-      <!--education next-->
-      <section class="education">
-            <div>
+<!--barsplit-->
+      <section class="barsplit font-center font-white-small containerwidth">
+        write about my skills. Keywords</section>
+<!--education next-->
+      <section class="flex flex-row-reverse">
+        <div class="leftbox">
+              <img src="imagefolder/eduimage.jpg" alt="education"/>
+        </div>
+            <div class="rightbox">
                 <li><h3>RED Academy</h3>  Web Development Professional Program</li>
                 <li><h3>Western University</h3>  Structural Engineering</li>
                 <!--locations, years-->
             </div>
-            <div>
-                  <img src="" alt="education"/>
-            </div>
-      </section>
 
-      <section class="strengths">
-        write about my strengths here. Keywords
-        <!--maybe full width bar with skills heading, and again for strengths, interests-->
       </section>
-
-      <section class="work experience">
-            <div>
+<!--barsplit-->
+      <section class="barsplit font-center font-white-small">
+        write about my strenghts. Keywords</section>
+<!--work experience-->
+      <section class="flex">
+        <div class="leftbox">
+              <img src="imagefolder/workimage.jpg" alt="work experience"/>
+        </div>
+          <div class="rightbox">
                 <li><h3>Starbucks Canada</h3>  Shift Supervisor</li>
                 <li><h3>Starbucks Canada</h3>  Shift Supervisor</li>
                 <li><h3>Starbucks Canada</h3>  Barista</li>
                 <!--locations, years-->
             </div>
-            <div>
-                  <img src="" alt="work experience"/>
-            </div>
       </section>
+<!--barsplit-->
+      <section class="barsplit font-center font-white-small">
+        write about my interests. Keywords</section>
 
-      <section class="interests">
-        write about my interests here. Keywords
-        <!--maybe full width bar with skills heading, and again for strengths, interests-->
-      </section>
 
   </body>
 

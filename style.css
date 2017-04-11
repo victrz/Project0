@@ -1,18 +1,86 @@
 * {
   font-family: "Courier New", Courier, monospace;
   font-size: 11px;
+  box-sizing: border-box;
+  padding: 0;
 }
-
+body{
+max-width: 550px;
+ margin: auto;
+}
+.containerwidth{
+  /*
+  margin: auto;*/
+}
+.topbanner{
+  background-image: image(imagefolder/image.jpg) no-repeat center;
+  height: 300px;
+  width: 550px;
+  background-color: black;
+}
 h1{
-  font-size: 70px;
+  size: 100px;
+  family: Arvo;
   color: white;
+  display: block;
 }
-h2{
-  font-size: 35px;
-  color:white;
+.fontawesome{
+  color: white;
+  justify-content: space-around;
+  width: 250px;
 }
 h3{
   font-size: 15px;
   font-color: gray;
+  display: inline;
 }
-/* h3 inline?
+.font-white-small{
+  color: white;
+  font-size: 10px;
+  font-family: 'Cutive Mono', monospace;
+}
+.font-white-large {
+  color: white;
+  font-size: 60px;
+  padding-top: 50px;
+}
+.font-center{
+  text-align: center;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.flex-just-center {
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+}
+.flex-row-reverse {
+
+  flex-direction: row-reverse;
+}
+.leftbox{
+  width: 200px;
+  padding: 15px 15px;
+  }
+img{
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+  display: block;
+}
+.barsplit{
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: #2F1F1F;
+  padding: 5px 20px;
+}
+.rightbox{
+  padding: 15px;
+  width: 350px;
+}
+li{
+  display: block;
+}
