@@ -1,38 +1,55 @@
 * {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 11px;
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
 body{
-max-width: 550px;
+ font-family: "Courier New", Courier, monospace;
+ max-width: 700px;
  margin: auto;
+ background-color: #EEE1EF;
+ font-size: 14px;
 }
-.containerwidth{
-  /*
-  margin: auto;*/
+.content-background-color{
+  background-color: white;
+  padding: 10px;
 }
 .topbanner{
-  background-image: image(imagefolder/image.jpg) no-repeat center;
+  background-image: url("bannerimg.jpg");
   height: 300px;
-  width: 550px;
-  background-color: black;
+  width: 700px;
 }
-h1{
-  size: 100px;
-  family: Arvo;
-  color: white;
-  display: block;
+h2{
+  size: 30px;
+}
+.fontArvo{
+  font-family: "Arvo";
 }
 .fontawesome{
-  color: white;
-  justify-content: space-around;
-  width: 250px;
+  justify-content: center;
+  padding: 30px;
 }
-h3{
-  font-size: 15px;
-  font-color: gray;
+h3, h4{
+  size: 16px;
+  color: #A296A2;
+}
+.list{
+  list-style-type: none;
+}
+.display-inline{
   display: inline;
+}
+.display-block{
+  display: block;
+}
+.font-center{
+  text-align: center;
+}
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px #343434;
+    padding: 0 30px;
 }
 .font-white-small{
   color: white;
@@ -42,45 +59,41 @@ h3{
 .font-white-large {
   color: white;
   font-size: 60px;
-  padding-top: 50px;
-}
-.font-center{
-  text-align: center;
+  padding-top: 70px;
+  text-shadow: 2px 2px #343434;
 }
 .flex {
   display: flex;
   flex-direction: row;
 }
-.flex-just-center {
+.flex-just-start{
+  justify-content: flex-start;
+}
+.flex-just-end{
+  justify-content: end;
+  text-align: right;
+}
+.flex-just-center{
   justify-content: center;
-  align-items: center;
-  width: 550px;
+  padding: 0 40px;
 }
 .flex-row-reverse {
-
   flex-direction: row-reverse;
 }
-.leftbox{
-  width: 200px;
+.boxpadding{
   padding: 15px 15px;
-  }
+}
+.boxwidth{
+  width: 50%;
+}
 img{
   border-radius: 100%;
   width: 180px;
   height: 180px;
-  display: block;
+  margin: auto;
 }
 .barsplit{
   border-radius: 5px;
-  display: flex;
-  justify-content: center;
   background-color: #2F1F1F;
   padding: 5px 20px;
-}
-.rightbox{
-  padding: 15px;
-  width: 350px;
-}
-li{
-  display: block;
 }
